@@ -1,0 +1,14 @@
+.h5{
+    margin: 0;
+    padding: 0;
+}
+.h5_page{
+	position: relative;
+	background-size: 100%;
+	background: #D7AAE4;
+	width: 100%;
+	height:100%;
+}
+.h5_component{
+	background: #47CFD3;
+}

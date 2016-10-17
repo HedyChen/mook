@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src='../js/lib/jquery.js'></script>
+	<script type="text/javascript" src='../js/lib/jquery-ui.min.js'></script>
+	<script type="text/javascript" src='../js/lib/jquery.fullPage.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/H5.css">
+	<script type="text/javascript" src='../js/H5.js'></script>
+	<script type="text/javascript" src='../js/H5ComponentBase.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+</head>
+<body>
+ <script type="text/javascript">
+ 	$(function(){
+	 	var h5=new H5();
+	 	h5.addpage('home','首页')
+	 	     .addcomponent('logo',{
+	 	     	width:200,
+	 	     	height:100,
+	 	     	text:'我是内容',
+	 	     	css:{
+			    left:50,
+			    top:50,
+		            },
+	 	    })
+	 	     .addcomponent('slogon',{
+	 	     	width:200,
+	 	     	height:100,
+	 	     	text:'我是内容',
+	 	     	css:{
+			    left:50,
+			    top:200,
+		            },
+		    })
+	 	  .addpage('capution','内容')
+             .addcomponent('capution',{
+             	width:200,
+	 	     	height:100,
+	 	     	text:'我是内容',
+	 	     	css:{
+			    left:50,
+			    top:50,
+		            },
+		        animateIn:{top:50,opacity:1},
+		        animateOut:{top:150,opacity:0},
+
+	 	     	
+		    })
+	 	  .loader();
+	 	     
+	 	
+	 	     
+ 	})
+
+
+ 	
+ </script>
+</body>
+</html>
